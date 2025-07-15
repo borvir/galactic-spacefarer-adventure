@@ -10,6 +10,7 @@ entity Positions {
         title : String;
 }
 
+@odata.draft.enabled
 entity Spacefarers {
     key ID                      : UUID;
         name                    : String;
