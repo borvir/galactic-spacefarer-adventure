@@ -25,6 +25,14 @@
     "@cap-js/sqlite": "^2"
   },
   "cds": {
+    "odata": {
+      "query": {
+        "limit": {
+          "default": 25,
+          "max": 1000
+        }
+      }
+    },
     "requires": {
       "db": {
         "kind": "sqlite",
